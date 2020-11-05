@@ -1,4 +1,4 @@
-create procedure [dbo].[sp_convertToTxt] @kode varchar(500), @versi varchar(3), @periodeData varchar(10)
+create procedure [dbo].[sp_sendToFTP] @kode varchar(500), @versi varchar(3), @periodeData varchar(10)
 as
 declare @dbName					varchar(50)		= 'LPS'
 declare @schemaName				varchar(50)		
